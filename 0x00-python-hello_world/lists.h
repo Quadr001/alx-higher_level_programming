@@ -5,18 +5,18 @@
 
 /**
  * struct listint_s - singly linked list
- * @next: Pointer to the next node in the list
  * @n: integer
- * Description: Defines a structure for a singly linked
- * list node for Holberton project
+ * @next: pointer to the next node in the list
  * @quadr
+ * Description: Defines a structure for a singly linked list node
+ * for Holberton project
  */
-
 typedef struct listint_s
 {
-int n;
-struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
+
 size_t print_listint(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
 void free_listint(listint_t *head);
