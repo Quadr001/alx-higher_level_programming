@@ -7,7 +7,7 @@
  * struct listint_s - singly linked list
  * @next: Pointer to the next node in the list
  * @n: integer
- * Description: Defines a structure for a singly linked 
+ * Description: Defines a structure for a singly linked
  * list node for Holberton project
  * @quadr
  */
