@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""
+defining container of the function 2-is_same_class
+"""
 
-"""This is a module container of the class-checking function """
 
 def is_same_class(obj, a_class):
     """
