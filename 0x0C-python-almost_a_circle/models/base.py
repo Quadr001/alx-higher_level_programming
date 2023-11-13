@@ -10,8 +10,7 @@ class Base:
     Attributes:
         _nb_objects: number of objects created
         id: id of object
-    """
-    __nb_objects = 0
+    """    __nb_objects = 0
 
     def __init__(self, id=None):
         """initiation method
